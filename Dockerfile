@@ -1,4 +1,4 @@
-FROM ubuntu:precise
+FROM ubuntu:latest
 MAINTAINER Simon Menke <simon.menke@gmail.com>
 
 RUN echo "deb http://archive.ubuntu.com/ubuntu precise main universe" > /etc/apt/sources.list
